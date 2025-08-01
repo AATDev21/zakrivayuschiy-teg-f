@@ -20,7 +20,7 @@
   background-size: cover;
 
   font-family: var(--main-font-family);
-  font-variation-settings: var(--main-font-weight);
+  font-variation-settings: "wght" var(--main-font-weight);
   font-size: var(--main-font-size);
   color: var(--main-font-color);
 }
@@ -78,7 +78,6 @@
 
   font-variation-settings: "wght" var(--header-font-weight);
   font-size: inherit;
-  font-weight: var(--header-font-weight);
   line-height: 22px;
   text-align: left;
 }
